@@ -1,0 +1,68 @@
+Moodle Boost Union theme stylesheet
+
+moodle-boost-union.css is the compiled frontend stylesheet exported from:
+https://moodle.polymtl.ca/theme/styles.php/boost_union/1791873440_1792627372/all
+Retrieved on 2026-10-22. Original comment notices are preserved below instead of inline in the CSS.
+Modifications: code comments removed; root-relative asset URLs point to https://moodle.polymtl.ca/ so
+the stylesheet works when served from GitHub Pages.
+
+Moodle: https://github.com/moodle/moodle
+Boost Union: https://github.com/moodle-an-hochschulen/moodle-theme_boost_union
+Moodle and Boost Union are distributed under GNU GPL v3 or later.
+The accompanying COPYING-Moodle.txt contains the GNU GPL v3 license.
+The compiled bundle also retains notices for its included components,
+including Bootstrap (MIT) and Font Awesome (MIT / SIL OFL / CC BY).
+
+Quiz questions and answer options are separate source material; this notice
+does not grant additional rights to that content.
+
+
+ORIGINAL STYLESHEET NOTICES
+
+*
+ * Wiki module style sheet
+ *
+ * @package mod-wiki-2.0
+ * @copyright 2009 Marc Alier, Jordi Piguillem marc.alier@upc.edu
+ * @copyright 2009 Universitat Politecnica de Catalunya http://www.upc.edu
+ *
+ * @author Jordi Piguillem
+ * @author Marc Alier
+ * @author David Jimenez
+ * @author Josep Arus
+ * @author Kenneth Riba
+ *
+ * @license http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+
+*
+ * CSS
+ *
+ * @package       gradereport_gradedist
+ * @author        Günther Bernsteiner
+ * @author        Andreas Krieger
+ * @copyright     2014 Academic Moodle Cooperation {@link http://www.academic-moodle-cooperation.org}
+ * @license       http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+
+* Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ * Copyright 2024 Fonticons, Inc.
+
+* Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ * Copyright 2024 Fonticons, Inc.
+
+* Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ * Copyright 2024 Fonticons, Inc.
+
+* Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ * Copyright 2024 Fonticons, Inc.
+
+* Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ * Copyright 2024 Fonticons, Inc.
+
+* Bootstrap  v5.3.3 (https://getbootstrap.com/)
+   * Copyright 2011-2024 The Bootstrap Authors
+   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)

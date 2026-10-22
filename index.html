@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="CP simulé INF2610 — test interactif d’entraînement.">
+  <title>CP Simulé · INF2610</title>
+  <link rel="stylesheet" href="assets/moodle-boost-union.css?v=clean-1">
+  <link rel="stylesheet" href="integration.css?v=clean-1">
+  <script defer src="quiz-data.js?v=clean-1"></script>
+  <script defer src="app.js?v=clean-1"></script>
+</head>
+<body id="page-mod-quiz-attempt" class="path-mod path-mod-quiz theme_boost_union">
+  <a class="skip" href="#questions">Passer aux questions</a>
+  <header class="navbar fixed-top navbar-light bg-white practice-navbar"><button id="toggle-navigation" class="btn nav-link" aria-label="Ouvrir ou fermer la navigation du test" aria-controls="quiz-navigation" aria-expanded="true"><span aria-hidden="true">☰</span></button><a href="./" class="practice-course">INF2610</a><span class="practice-label">Entraînement</span><button id="restart" class="btn btn-secondary">Recommencer</button></header>
+  <div class="practice-page">
+    <nav class="breadcrumb" aria-label="Fil d’Ariane"><a href="./">INF2610 (A2026) - Noyau d’un système d’exploitation</a><span>/</span><a href="./">Révision Contrôle Périodique</a><span>/</span><span>CP Simulé</span></nav>
+    <div class="heading"><span class="activity-icon" aria-hidden="true">▦</span><h1>CP Simulé</h1></div>
+    <p class="intro">20 questions · 54 points · Autant de tentatives que vous voulez.</p>
+    <div class="toolbar"><div><span id="progress-text">0 / 54 réponses</span><progress id="progress" max="54" value="0" aria-label="Progression des réponses"></progress></div><div class="timer-controls"><label><input id="timed" type="checkbox"> Limite de 2 heures</label><output id="timer" aria-label="Temps restant" hidden>2:00:00</output></div></div>
+    <p id="save-status" class="save-status" role="status">Votre progression est enregistrée sur cet appareil.</p>
+    <section id="result" class="result" tabindex="-1" hidden aria-live="polite"></section>
+    <div class="layout"><main><div id="page-heading" tabindex="-1" class="page-heading"></div><div id="questions"></div><div class="page-actions"><button id="prev" class="btn btn-secondary">← Page précédente</button><span id="page-count"></span><button id="next" class="btn btn-primary">Page suivante →</button></div><div class="finish-row"><span>Prêt à voir votre résultat ?</span><button id="grade" class="btn btn-primary">Terminer et corriger</button></div></main>
+      <aside id="quiz-navigation"><section class="block block_fake card nav-card"><div class="card-body"><h2 class="card-title">Navigation du test</h2><nav id="question-nav" aria-label="Questions"></nav><div class="legend"><span><i class="legend-answered"></i> Répondue</span><span><i class="legend-flag">⚑</i> À revoir</span></div><p id="nav-status">Vos réponses sont conservées entre les pages.</p><button id="review-flags" class="text-button">Voir les questions marquées</button><button id="show-all" class="text-button">Afficher toutes les questions</button></div></section></aside>
+    </div>
+    <footer>Version d’entraînement indépendante · Aucun résultat envoyé à Moodle.</footer>
+  </div>
+  <dialog id="reset-dialog" aria-labelledby="reset-title"><h2 id="reset-title">Recommencer le test ?</h2><p>Les réponses, les marques et le chronomètre de cette tentative seront effacés.</p><div class="dialog-actions"><button id="cancel-reset" class="btn btn-secondary">Garder ma tentative</button><button id="confirm-reset" class="btn btn-primary">Recommencer</button></div></dialog>
+  <script>if(location.protocol === 'file:') document.documentElement.classList.add('local-file');</script>
+</body>
+</html>
+
